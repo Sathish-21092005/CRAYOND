@@ -9,78 +9,95 @@
      color: #373a3c;     
   font-weight: 400;   
   margin-left: 9rem;
-  font-size:large;
-  margin-top: 1rem;
+  font-size:17px;
+  margin-top: .5rem;
   cursor: pointer;
 }
 .whoweare{
       color: #373a3c;     
   font-weight: 400;   
-  margin-left: 6rem;
-  font-size:large;
-  margin-top: 1rem;
+  margin-left: 4rem;
+  font-size:17px;
+  margin-top: .5rem;
   cursor: pointer;
 }
 .resources{
      color: #373a3c;     
   font-weight: 400;   
-  margin-left: 3rem;
-  font-size:large;
-  margin-top: 1rem;
+  margin-left: 1rem;
+  font-size:17px;
+  margin-top: .5rem;
   cursor: pointer;
 }
 .content{
      color: #373a3c;     
   font-weight: 400;   
-  margin-left: -3rem;
-  font-size:large;
-  margin-top: 1rem;
+  margin-left: -5rem;
+  font-size:17px;
+  margin-top: .5rem;
   cursor: pointer;
 }
 
 .schedule-tn {
-  border-color: #6f42c1; 
-  color: #6f42c1;        
+  border-color:#3207f0a2; 
+  color: #3207f0a2;        
   transition: background-color 0.3s, color 0.3s;
-  margin-left: -1rem;
+  margin-left: -4rem;
   font-weight: 700;
   font-size:large;
   cursor: pointer;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
-.schedule-btn:hover {
-  background-color: #6f42c1; 
-  color: #fff;             
+.schedule-tn:hover {
+  background-color:#3207f0a2 ; 
+  color: #fff;  
+  cursor: pointer;           
 }
 .Para{
-    font-size: xx-large;
+    font-size: 38px;
     text-align: center;
-    font-weight: 850;
+    font-weight: 900;
     margin-top: 7rem;
 }
 .line{
      font-size: x-large;
     text-align: center;
+    
 }
 .view{
-    margin-left: 30rem;
-    font-weight: 700;
-  font-size:x-large;
+    margin-left: 35rem;
+    font-weight: 600;
+  font-size:20px;
   cursor: pointer;
+  margin-top: -40rem;
+  background-color: #3207f0a2;
+  transition: none;
+  padding-top: 1rem ;
+  padding-bottom: 1rem ;
+  padding-left: 2rem;
+  padding-right: 2rem;
  
 }
+
 .schedule-btn {
-  border-color: #6f42c1; 
-  color: #6f42c1;        
+  border-color:rgb(64, 64, 180);
+  color: rgba(64, 64, 180, 0.767);      
   transition: background-color 0.3s, color 0.3s;
-  margin-left: -30rem;
-  font-weight: 700;
+  margin-left: -31rem;
+  font-weight: 600;
   font-size:x-large;
   cursor: pointer;
+  margin-top: -40rem;
+  padding-top: .9rem ;
+  padding-bottom: .9rem ;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .schedule-btn:hover {
-  background-color: #6f42c1;
+  background-color: #3207f0a2;
   color: #fff;               
   cursor: pointer;
 }
@@ -94,6 +111,7 @@
 .inline-image {
   width: 100px;
   height: auto;
+  margin-top: -40rem;
 }
 
 .inline-text {
@@ -102,6 +120,7 @@
 .brand{
     font-size: xx-large;
     text-align: center;
+    font-weight: 647;
 }
 .small-img {
   width: 150px;       /* reduce width */
@@ -131,18 +150,18 @@
 
 }
 .npara{
-  background-color: #001f3f; /* dark blue */
-    color: white;              /* white text for contrast */
-    padding: 20px;             /* spacing inside the box */
-    border-radius: 8px;        /* optional: rounded corners */
+  background-color: #001f3f; 
+    color: white;             
+    padding: 20px;            
+    border-radius: 8px;        
     margin-top: 20px;  
     text-align: center;
 }
 .n1{
-    background-color: #001f3f; /* dark blue */
-    color:rgb(222, 222, 219);              /* white text for contrast */
-    padding: 20px;             /* spacing inside the box */
-    border-radius: 8px;        /* optional: rounded corners */
+    background-color: #001f3f; 
+    color:rgb(222, 222, 219);             
+    padding: 20px;             
+    border-radius: 8px;      
     margin-top: 20px;  
     text-align: center;
 
@@ -293,4 +312,136 @@
 .pe{
 font-size:18px ;
   font-weight: 450;
+}
+
+.marquee-track {
+  animation: scroll-left 33s linear infinite;
+  white-space: nowrap;
+  
+}
+
+.marquee-box {
+  background-color: rgba(146, 143, 143, 0.082);
+  
+  border-radius: 15px;
+  padding: 5px 21px;
+  font-weight:900px;
+  color: rgb(0, 0, 0);
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(65%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.value{
+  background-color: rgb(31, 31, 49);
+}
+
+.contaiiner {
+      display: flex;       /* Put children in a row */
+      gap: 0px;
+     padding-top: 25px;           /* Space between boxes */
+    }
+
+    .bx1 {
+      width: 240px;
+      height: 110px;
+      background-color: rgb(107, 98, 206);
+      border: 2px solid black;
+      text-align: center;
+      line-height: 100px;  
+      margin-left: 32rem;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-color: rgb(114, 83, 224);
+  
+   
+      
+    }
+    .bx2 {
+      width: 240px;
+      height: 110px;
+      background-color:rgb(226, 240, 236);
+      border: 2px solid black;
+      text-align: center;
+      line-height: 100px;  
+      margin-left: 1rem;
+         border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      border-color: rgb(114, 83, 224);
+      border-bottom: 2px rgb(226, 240, 236);
+      
+    }
+   .slide1{
+    background-color: rgb(226, 240, 236);
+    margin-top: -.0rem;
+   }
+   .lean{
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    margin-top: 17rem;
+   }
+  
+.b1 {
+   width:350px;
+      height: 415px;
+      background-color: white;
+      border: 2px solid rgb(111, 16, 206);
+      border-radius: 5px;
+}
+.b2 {
+ width: 310px;
+      height: 395px;
+      background-color: white;
+      margin-top:.7rem
+     
+}
+.b3 {
+      width: 420px;
+      height: 395px;
+      background-color: white;
+      margin-top:.7rem;
+      margin-left: .1rem;
+      border-top-right-radius: 10px ;
+      border-bottom-right-radius: 10px;
+    
+}
+.threeee{
+      width: 200px;
+      height: 40px;
+      background-color: rgb(249, 243, 86);
+      border-radius: 50px;
+      margin-left: 4.7rem;
+      margin-top: 1.5rem;
+      padding: .6rem;
+
+}
+
+.unlocking{
+     width: 300px;
+      height: 40px;
+      background-color: rgba(53, 9, 229, 0.686);
+      border-radius: 7px;
+      margin-top: 1.5rem;
+      margin-left: 1.5rem;
+      padding: .5rem;
+      
+}
+.yourIP{
+  width: 350px;
+  height: 190px;
+  background-color: rgba(235, 235, 147, 0.218);
+  border: 2px solid black;
+  border-color: rgba(241, 241, 110, 0.905);
+  margin-left: 2rem;
+  border-radius: 10px;
+  
 }
