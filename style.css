@@ -286,6 +286,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  border: 2px solid  rgba(166, 196, 204, 0.355);;
  
 
 }
@@ -376,12 +377,13 @@ font-size:18px ;
          border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       border-color: rgb(114, 83, 224);
-      border-bottom: 2px rgb(226, 240, 236);
+      border-bottom: 2px rgb(226, 240, 236,0.881);
       
     }
    .slide1{
-    background-color: rgb(226, 240, 236);
+    background-color: rgba(226, 240, 236, 0.881);
     margin-top: -.0rem;
+   
    }
    .lean{
     display: flex;
@@ -445,3 +447,104 @@ font-size:18px ;
   border-radius: 10px;
   
 }
+ .ziba{
+  margin-left: 3rem;
+  margin-top: 1rem;
+ }
+ .choose{
+  margin-left: 5rem;
+  margin-top: 1rem;
+ }
+ .ben{
+  margin-left: 1rem;
+  margin-top: 0rem;
+ }
+ .cement{
+    margin-left: -3.5rem;
+ }
+ .lg1{
+  margin-left: 2.7rem;
+  margin-top: 1.5rem;
+ }
+ .lg2{
+   margin-top: 1.5rem;
+   margin-left: 2rem;
+ }
+ .lg3{
+   margin-top: 1rem;
+   margin-left: 1rem;
+ }
+ .lg4{
+  margin-left: -.5rem;
+  margin-top: 1rem;
+ }
+ .lg5{
+  margin-left: -2.7rem;
+  margin-top: 1rem;
+ }
+ .lg6{
+    margin-left: -4rem;
+  margin-top: 1.5rem;
+ }
+ .lg7{
+    
+  margin-left: 3.7rem;
+  margin-top: 1.5rem;
+ }
+ .lg8{
+  margin-left: 1.5rem;
+  margin-top: 2rem;
+ }
+ .lg9{
+   margin-left: 1rem;
+  margin-top: 1.7rem;
+ }
+ .lg10{
+   margin-left: 0rem;
+  margin-top: 1rem;
+ }
+ .lg11{
+   margin-left: -1.3rem;
+  margin-top: 2rem;
+ }
+ .lg12{
+   margin-left: -3rem;
+   margin-top: 1.5rem;
+ }
+ .lg13{
+   margin-left: 1rem;
+  margin-top: 1.7rem;
+ }
+ .lg14{
+   margin-top: 1.7rem;
+   margin-left: -.3rem;
+ }
+ 
+ .rec1{
+  background-color: rgba(255, 0, 0, 0.544);
+   
+   border-radius: 30px;
+   margin-top: 1.7rem;
+   margin-left: 30rem;
+   font-size: 13px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.938);
+   width: 125px;
+   height: 23px;
+   padding: 3px;
+   text-align: center;
+   margin-top: -2.4rem;
+   margin-left: 72rem;
+ }
+ .look{
+  background-color:rgb(31, 31, 49);
+  width: 1200px;
+  height: 270px;
+  margin-left: 10rem;
+  border-radius: 7px;
+  margin-top: -10rem;
+  padding-left: 2rem;
+ padding-top: 2rem;
+ cursor: default;
+}
+
